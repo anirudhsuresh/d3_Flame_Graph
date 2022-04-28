@@ -37,7 +37,7 @@ d3.json("data.json", function (error, data) {
   if (error) return console.warn(error);
   d3.select("#chart")
     .append("svg")
-    .attr("preserveAspectRatio", "xMinYMin meet")
+    // .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("width", "auto")
     .attr("height", "auto")
     // .attr("viewBox", "100 1000 150 150")
